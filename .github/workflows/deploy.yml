@@ -90,7 +90,7 @@ jobs:
         # The html-site directory contains pre-built static files ready to serve
 
       - name: Upload artifact for Pages
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           # Deploy the pre-built HTML static site from html-site directory.
           #

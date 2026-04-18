@@ -17,7 +17,7 @@
     "@lhci/cli": "^0.15.0",
     "@playwright/test": "^1.57.0",
     "@types/node": "^24",
-    "linkinator": "^6.2.1",
+    "linkinator": "^7.6.1",
     "typescript": "^5"
   }
 }

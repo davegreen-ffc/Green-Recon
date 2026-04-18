@@ -1,4 +1,4 @@
-# Free For Charity Website
+# Green Recon Website
 
 ## 📄 Pure HTML Static Website
 
@@ -6,7 +6,7 @@ This repository contains the **Free For Charity** website built with pure HTML, 
 
 ### Quick Links
 
-- 🌐 **[Live Site](https://ffcworkingsite2.org/)** - Production website
+- 🌐 **[Live Site](https://greenrecon.org/)** - Production website
 - 📂 **[HTML Site Files](./html-site/)** - All website files
 - 🔄 **[Conversion History](./HTML_CONVERSION_SUMMARY.md)** - Documentation of React to HTML conversion
 
@@ -89,14 +89,14 @@ All legal and policy information is available on separate pages:
 
 The site is automatically deployed to the custom apex domain when changes are pushed to the `main` branch.
 
-- **Production URL**: https://ffcworkingsite2.org/
+- **Production URL**: https://greenrecon.org/
 - **Deployment**: Via GitHub Actions (`.github/workflows/deploy.yml`) to GitHub Pages with custom domain
 - **Custom Domain**: Configured via `CNAME` file in `html-site/` directory
 - **No Build Step**: Pure HTML files are served directly from the `html-site/` directory
 
 ### ⚠️ Custom Domain Dependency
 
-**Important**: This site has a critical dependency on the custom domain (ffcworkingsite2.org). All asset paths are root-relative (e.g., `/css/styles.css`, `/images/`), which requires the site to be served from a domain root.
+**Important**: This site has a critical dependency on the custom domain (greenrecon.org). All asset paths are root-relative (e.g., `/css/styles.css`, `/images/`), which requires the site to be served from a domain root.
 
 **Implications**:
 - The site will **NOT** work if accessed via the GitHub Pages subpath URL (https://freeforcharity.github.io/FFC-IN-Single_Page_Template_HTML/)
@@ -104,7 +104,7 @@ The site is automatically deployed to the custom apex domain when changes are pu
 - If the custom domain expires, becomes misconfigured, or is removed, the site will be broken
 
 **Operational Requirements**:
-1. **Domain Renewal**: Ensure ffcworkingsite2.org domain renewal is monitored and automated
+1. **Domain Renewal**: Ensure greenrecon.org domain renewal is monitored and automated
 2. **CNAME File**: Never remove or modify the `html-site/CNAME` file without updating asset paths
 3. **Monitoring**: Set up alerts for domain expiration and SSL certificate renewal
 
@@ -123,8 +123,8 @@ No build process or dependencies required! Simply open the HTML files in your br
 
 ```bash
 # Clone the repository
-git clone https://github.com/FreeForCharity/FFC-IN-Single_Page_Template_HTML.git
-cd FFC-IN-Single_Page_Template_HTML
+git clone https://github.com/davegreen-ffc/Green-Recon.git
+cd Green-Recon
 
 # Open in browser
 cd html-site

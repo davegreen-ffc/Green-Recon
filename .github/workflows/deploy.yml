@@ -95,7 +95,7 @@ jobs:
           # Deploy the pre-built HTML static site from html-site directory.
           #
           # Asset paths use root-relative paths (e.g., /css/styles.css) for deployment
-          # to the custom apex domain (https://ffcworkingsite2.org/) via CNAME.
+          # to the custom apex domain (https://greenrecon.org/) via CNAME.
           # The CNAME file in html-site/ configures GitHub Pages to serve at the custom domain root.
           path: ./html-site
 

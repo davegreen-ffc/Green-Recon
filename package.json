@@ -16,7 +16,7 @@
     "@axe-core/playwright": "^4.10.2",
     "@lhci/cli": "^0.15.0",
     "@playwright/test": "^1.57.0",
-    "@types/node": "^24",
+    "@types/node": "^25",
     "linkinator": "^6.2.1",
     "typescript": "^5"
   }

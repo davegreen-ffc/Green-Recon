@@ -13,9 +13,9 @@
     "links": "linkinator http://localhost:8000 --recurse --skip 'mailto:' --skip 'tel:' --skip 'https://fonts.googleapis.com' --skip 'https://www.googletagmanager.com'"
   },
   "devDependencies": {
-    "@axe-core/playwright": "^4.10.2",
+    "@axe-core/playwright": "^4.11.2",
     "@lhci/cli": "^0.15.0",
-    "@playwright/test": "^1.57.0",
+    "@playwright/test": "^1.59.1",
     "@types/node": "^24",
     "linkinator": "^6.2.1",
     "typescript": "^5"
